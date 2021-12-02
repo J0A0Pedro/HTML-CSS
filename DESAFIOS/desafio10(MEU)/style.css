@@ -1,0 +1,158 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+h2{
+    font-family: idroid;
+}
+
+li{
+    display: block;
+}
+
+ul#lista{
+    background-color: rgba(0, 0, 255, 0.123);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+nav{
+    padding: 5px;
+
+    
+}
+body{
+    /*background-color:rgba(0, 180, 0, 0.603);*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.411);
+    border-radius: 30px;
+    background-color:rgba(0, 170, 0, 0.541);
+    margin: 75px;
+    
+    
+}
+
+div#menu{
+    background: linear-gradient(to bottom , #00ff4098 0%, #00580c91 100%);
+
+    background-color: rgb(0, 104, 0);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px  ;
+    box-shadow: 10px 10px 10px #0042095e ;
+}
+
+section#corpo{
+    /*background-color: white;*/
+    border-radius: 10px;
+    padding: 50px;
+    background-color: white;
+    
+}
+
+p{
+    /*line-height: 50px;*/
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: green;
+    font-size: 30px;
+    
+}
+
+
+/*
+div#baixo{background:rgba(180, 180, 180, 0.507);
+}*/
+
+/*nav>a{
+    text-decoration: none;
+    color: white;
+}*/
+
+/*nav>a:hover{
+    text-decoration: underline;
+    color: rgb(94, 255, 0);
+}
+*/
+
+h3#aprendermais{
+    background-color: rgba(0, 128, 49, 0.315);
+    margin:0px;
+    font-size: 20px;
+    padding: 0px;
+
+}
+
+.menu01{
+    list-style: none;
+    display: flex;
+   
+  
+}
+
+.menu01 a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu01 li{
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+.menu01>li :hover{
+    text-decoration: underline;
+    color: rgb(47, 255, 64);
+}
+
+
+#titulo1{
+    background-color: rgba(0, 128, 0, 0.26);
+}
+
+
+
+@media(max-width: 999px){
+    .menu01{
+        font-size: 18px;
+    }
+       
+    
+    body{
+        margin: 10px;
+    }
+
+    div#video iframe{
+        max-width:400px
+        
+        
+        
+    }
+
+    .imagem01 img{
+        max-width: 400px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .imagem02 img{
+        max-width: 400px;
+        width: auto;
+        height: auto;
+        
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+
+    }
+    
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+
+    <picture>
+
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+   
+    <h1>Análise</h1>
+    <p>Minha NOTA após a atividade:</p>
+        <p>A tag img será a imagem fixa que o site irá abrir normalmente e, de acordo com o tamamho da tela que do aparelho que usa o site, ele irá usar um dos outros dois sources para melhorar o desempenho do usuário. Se o usuário estiver conectando de um aparelho celular, o source de 750px será aberto no site ao invés do img fixo. Se o usuário estiver acessando de um aparelho com uma tela um poucom maior a que de um celular, como um tablet, o source de 1050px será aquele aberto. A imagem padrão sempre será aquele que está na tag img, mas os dois sources (750px e 1050 px) se adequam para melhor visão</p>
+
+        <hr>
+        <h1>Reproduzindo Aúdio</h1>
+        <p>Vamos aprender a reproduir aúdios em HTML5</p>
+        <audio preload="metadata" autoplay  controls > 
+            <source src="midia/piano-trap-josh.mp3" type="audio/mpeg">
+            <source src="midia/piano-trap-josh.ogg" type="audio/ogg">
+            <source src="midia/piano-trap-josh.wav" type="audio/wav">
+        </audio>
+
+</body>
+</html> 
